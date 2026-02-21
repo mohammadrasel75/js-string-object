@@ -19,4 +19,8 @@ for(let i = 0; i <sentence.length; i++){
     rev = letter + rev;
 
 }
-console.log(rev); 
+// console.log(rev); 
+
+// stortcut 
+const reversed = sentence.split('').reverse().join();
+console.log(reversed);
