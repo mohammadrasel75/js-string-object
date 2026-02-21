@@ -10,11 +10,22 @@ console.log(school);
 const subject = 'Chemistry';
 const book  = 'chemistry'; 
 
-if(subject === book){
+if(subject.toLocaleLowerCase() === book.toLocaleLowerCase()){
     console.log('I am reading book aibar porikhai fatai felmu');
      
 }
 
 else {
-    console.log('hudai hudai prista ultai ar vat khaoyar jonno '); 
+    console.log('Monira is my beautiful wife'); 
+}
+
+const drink = 'wat er';
+const liquid = ' water';
+
+if(drink.trim() === liquid.trim()){
+    console.log('পানির অপর  নাম জীবন'); 
+}
+
+else {
+    console.log('সুম্রদে পানি আছে খাইতে পারি না');
 }
